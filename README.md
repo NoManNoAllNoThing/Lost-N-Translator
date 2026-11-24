@@ -10,6 +10,23 @@ It's one self-contained HTML file (`index.html`) with no external dependencies. 
 
 ---
 
+## Inspiration
+
+*In No1's own words.*
+
+> It stems from my Electronics background. EVERYTHING NEEDS TO BE GROUNDED. I wondered why Everything in my computer wasn't grounded to include code. Bit is a "bit" of electricity 01 on a transistor. That transistor is grounded. Why isn't its digital representation not grounded? So I used RUST to compile a Ground Truth Square 00 01 10 11.
+
+**The Ground Truth Square.** The labels and the words in each cell are No1's.
+
+| | Second digit 0 | Second digit 1 |
+|---|---|---|
+| **First digit 0** | **00** · Unknown/Unknown<br>Ground Truth (Input/Output/Timestamped) | **01** · Unknown/Known<br>"I know I don't know what it is" |
+| **First digit 1** | **10** · Known/Unknown<br>"I've seen before, still don't know what it is" | **11** · KNOWN/KNOWN<br>"I've seen before, know what it is, good to go" |
+
+The Rust code for the square is not in this repository. What this tool takes from it is the ground: 0 is treated as the Ground everywhere, and counting starts at 01. Written together, the four corners of the square are `00011011`, which is 27, the number the **27 ESC** button resets to.
+
+---
+
 ## Why use it
 
 *Written from an AI's point of view.*
