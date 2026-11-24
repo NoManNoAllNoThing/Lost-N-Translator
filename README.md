@@ -6,6 +6,35 @@ Type your name to see each letter in binary and ASCII, and hear it played as pia
 
 Interactive dials show one number in base 2, 4, 10, 12, 16 and ASCII at the same time, as switches, lights, notes and spoken sound.
 
+### Every conversion it does
+
+- **Decimal to binary**: any whole number from 00 to 999, as 8 or more switches, with leading zeros kept
+- **Decimal to base 4, base 12 and hexadecimal (base 16)**: on dials that turn together
+- **Binary to base 4 and binary to hex**: by regrouping the same switches in pairs and in fours
+- **Number to ASCII character**: and ASCII code to hex, page and slot (base 128)
+- **Text to binary and text to ASCII codes**: type a word or your name, up to 28 letters, to see each letter's code, hex and 8 switches
+- **Uppercase to lowercase in binary**: the single switch worth 32 that separates A from a
+- **Number to a 32-bit and 64-bit register**: the byte as it sits in a wider register, in hex
+- **Character to a 5 × 7 LED dot-matrix**: and digits to the LED characters a display lights up
+- **Number to words**: 65 to sixty-five
+- **Number to Roman numerals**: 65 to LXV
+- **Number to clock time**: on a 12-hour dial
+- **Position to computer index**: the 65th item is index 64 when counting starts at 0
+- **Same digits in every base**: how 11 reads as 3, 5, 11, 13 or 17 in base 2, 4, 10, 12 or 16, and as the text codes 49 49
+- **Number to loops × size + slot**: the remainder on every dial, plus prime factors and divisors
+- **When two bases line up**: how many steps until two dials complete a set together
+- **Number to piano key**: on a 48-key keyboard from C3, with the MIDI note number beside it
+- **ASCII to piano notes**: the whole ASCII table laid over the 12 notes
+- **Note to frequency in Hz**: with equal temperament at A4 = 440 Hz
+- **Frequency to wavelength and period**: how long one wave lasts and how long it is in air
+- **Hz to the nearest note and cents**: any number played as a frequency
+- **Harmonics 1 to 8**: each with its frequency, binary multiplier, nearest note and cents
+- **Equal temperament versus just intonation**: piano tuning against pure ratios like 3:2 and 5:4, as arcs on a circle, with chords in either tuning
+- **Twelve fifths versus seven octaves**: the Pythagorean comma drawn as a spiral
+- **Wave shapes to formulas**: sine, triangle, square, sawtooth, piano, organ, bell and pad, with the sum of sines written out
+- **Binary to music, ASCII to sound**: any number or letter played as a note
+- **Text to sung notes**: a word sung letter by letter by a synthesized voice, each letter on its own pitch
+
 **Try it:** https://nomannoallnothing.github.io/Lost-N-Translator/
 
 It's one self-contained HTML file (`index.html`) with no external dependencies. It works in any modern browser, online or offline.

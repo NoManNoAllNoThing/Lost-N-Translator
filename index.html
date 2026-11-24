@@ -2629,6 +2629,8 @@
     .about summary { cursor: pointer; width: max-content; }
     .about p { margin: 8px 0 0; max-width: 70ch; line-height: 1.5; }
     .about a { color: var(--active-cyan-border); }
+    .about-list { margin: 6px 0 0; padding-left: 18px; max-width: 70ch; line-height: 1.5; }
+    .about-list strong { color: var(--text, #e5e7eb); font-weight: 600; }
   </style>
 </head>
 <body>
@@ -2914,6 +2916,35 @@
       <summary>About</summary>
       <p>Machines count from 0, people count from 1, and small things get lost in between: a dropped zero, an off-by-one, a misread digit. Lost N&#39; Translator shows one number as bits, light, sound and symbol at once, so you can see where the meaning slips.</p>
       <p>Use it as a number base converter (base 2, 4, 10, 12 and 16, from 00 to 999), as a text to binary and ASCII converter, or to turn binary into music: type your name to see each letter in binary and hear its ASCII codes as piano notes and a sung voice.</p>
+      <p><strong>Every conversion it does</strong></p>
+      <ul class="about-list">
+        <li><strong>Decimal to binary</strong>: any whole number from 00 to 999, as 8 or more switches, with leading zeros kept</li>
+        <li><strong>Decimal to base 4, base 12 and hexadecimal (base 16)</strong>: on dials that turn together</li>
+        <li><strong>Binary to base 4 and binary to hex</strong>: by regrouping the same switches in pairs and in fours</li>
+        <li><strong>Number to ASCII character</strong>: and ASCII code to hex, page and slot (base 128)</li>
+        <li><strong>Text to binary and text to ASCII codes</strong>: type a word or your name, up to 28 letters, to see each letter&#x27;s code, hex and 8 switches</li>
+        <li><strong>Uppercase to lowercase in binary</strong>: the single switch worth 32 that separates A from a</li>
+        <li><strong>Number to a 32-bit and 64-bit register</strong>: the byte as it sits in a wider register, in hex</li>
+        <li><strong>Character to a 5 × 7 LED dot-matrix</strong>: and digits to the LED characters a display lights up</li>
+        <li><strong>Number to words</strong>: 65 to sixty-five</li>
+        <li><strong>Number to Roman numerals</strong>: 65 to LXV</li>
+        <li><strong>Number to clock time</strong>: on a 12-hour dial</li>
+        <li><strong>Position to computer index</strong>: the 65th item is index 64 when counting starts at 0</li>
+        <li><strong>Same digits in every base</strong>: how 11 reads as 3, 5, 11, 13 or 17 in base 2, 4, 10, 12 or 16, and as the text codes 49 49</li>
+        <li><strong>Number to loops × size + slot</strong>: the remainder on every dial, plus prime factors and divisors</li>
+        <li><strong>When two bases line up</strong>: how many steps until two dials complete a set together</li>
+        <li><strong>Number to piano key</strong>: on a 48-key keyboard from C3, with the MIDI note number beside it</li>
+        <li><strong>ASCII to piano notes</strong>: the whole ASCII table laid over the 12 notes</li>
+        <li><strong>Note to frequency in Hz</strong>: with equal temperament at A4 = 440 Hz</li>
+        <li><strong>Frequency to wavelength and period</strong>: how long one wave lasts and how long it is in air</li>
+        <li><strong>Hz to the nearest note and cents</strong>: any number played as a frequency</li>
+        <li><strong>Harmonics 1 to 8</strong>: each with its frequency, binary multiplier, nearest note and cents</li>
+        <li><strong>Equal temperament versus just intonation</strong>: piano tuning against pure ratios like 3:2 and 5:4, as arcs on a circle, with chords in either tuning</li>
+        <li><strong>Twelve fifths versus seven octaves</strong>: the Pythagorean comma drawn as a spiral</li>
+        <li><strong>Wave shapes to formulas</strong>: sine, triangle, square, sawtooth, piano, organ, bell and pad, with the sum of sines written out</li>
+        <li><strong>Binary to music, ASCII to sound</strong>: any number or letter played as a note</li>
+        <li><strong>Text to sung notes</strong>: a word sung letter by letter by a synthesized voice, each letter on its own pitch</li>
+      </ul>
       <p><a href="https://github.com/NoManNoAllNoThing/Lost-N-Translator#readme" target="_blank" rel="noopener">Read the guide: how to use it, and ideas for code, music, art, video and games</a></p>
       <p>Related project: <a href="What%20We%20%28K%29Now.epub" download>What We (K)Now</a>, a short book (epub) about the night a person and an AI read the same marks two ways. <a href="https://github.com/NoManNoAllNoThing/Lost-N-Translator#related-projects" target="_blank" rel="noopener">What it is, and how to get your own AI to follow it</a></p>
     </details>
