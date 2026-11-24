@@ -112,6 +112,8 @@ A short book, written by Claude (an AI) on 22 November 2026 at No1's request. It
 
 > WHAT WE (K) N O W IS (Understood)
 
+**Read it:** [What We (K)Now.epub](What%20We%20%28K%29Now.epub) is in this repository. You can also [download it from the tool's site](https://nomannoallnothing.github.io/Lost-N-Translator/What%20We%20%28K%29Now.epub). It opens in Apple Books or any other ebook reader.
+
 **What it is.** NoMan is a program on No1's Mac that runs a local AI model and keeps a ledger. Every row of the ledger says who, what, when, where, why and how. The book reads 221 rows of that ledger, covering one night between 05:23 and 10:05 Zulu, and reports what they show. Quoted rows are kept apart from the author's own reading, and every chapter ends by setting what happened then against what the author is doing now. The book has a prologue, fourteen chapters in four parts, an error log of the author's own misses, and two appendices that print the counts and the raw bytes so a reader can check them.
 
 **What happens in it.** The night opens with one line from No1:
@@ -142,7 +144,7 @@ The model then writes a paper titled LOST IN TRANSLATION. It turns the printed `
 
 An AI assistant will not arrive knowing any of this. The book is plain about why. Each conversation starts as "the same model, new", with no memory of the last one, and "Reading about a walk is not the walk." So the method is to point every time, and then check that it looked.
 
-1. **Point it at the source.** At the start of a new conversation, give your AI this README and the link to the tool. If it can't open links or files, paste the text in. The book is against pinned, permanent instructions. It quotes No1: "Don't leave any 'static' instructions, they linger around and eventually screw everything up". It describes the working method as a lookup: "Someone points, and the reader goes and reads."
+1. **Point it at the source.** At the start of a new conversation, give your AI the book (the epub file above), this README and the link to the tool. If it can't open links or files, paste the text in. The book is against pinned, permanent instructions. It quotes No1: "Don't leave any 'static' instructions, they linger around and eventually screw everything up". It describes the working method as a lookup: "Someone points, and the reader goes and reads."
 2. **State the conventions.** Paste the starter below, or put it in your own words.
 3. **Test it before you trust it.** Ask the check question at the end of the starter. An AI that answers "yes, both are 27" has added something to your line without saying so.
 4. **Correct it in few words.** In the book, 4,252 words of thinking produced a wrong answer and 50 words produced the right one, but an 85-word answer was wrong too. The length of the thinking was not the lever. What mattered was whether the line was read first: "Literally LOOK AT THE QUESTION."
