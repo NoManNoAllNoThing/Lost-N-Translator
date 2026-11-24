@@ -8,6 +8,18 @@ Interactive dials show one number in base 2, 4, 10, 12, 16 and ASCII at the same
 
 It's one self-contained HTML file (`index.html`) with no external dependencies. It works in any modern browser, online or offline.
 
+[![Lost N' Translator showing 27 as 00011011 in base 2, 1B in hex, ESC in ASCII and the note D5](assets/screenshot-hero.png)](https://nomannoallnothing.github.io/Lost-N-Translator/)
+
+<table>
+<tr>
+<td width="50%"><a href="https://nomannoallnothing.github.io/Lost-N-Translator/?n=27"><img src="assets/screenshot-dials.png" alt="The six dials for 27: base 2, 4, 10, 12, 16 and ASCII, each with 0 as the ground at the top"></a><br><sub>The six dials for 27. The dashed slot at the top of each dial is the ground, 0.</sub></td>
+<td width="50%"><a href="https://nomannoallnothing.github.io/Lost-N-Translator/?n=65&word=CAT&thread=letters"><img src="assets/screenshot-letters.png" alt="The Letters thread for the word CAT, with ASCII laid over the 12 notes"></a><br><sub>The word CAT as codes, switches and notes, with ASCII laid over the 12 notes.</sub></td>
+</tr>
+<tr>
+<td colspan="2"><a href="https://nomannoallnothing.github.io/Lost-N-Translator/?n=69&thread=music"><img src="assets/screenshot-music.png" alt="The Notes thread for 69: a 48-key piano with G#4 lit, the octave as one full turn, and twelve fifths as a spiral"></a><br><sub>69 as G#4: the keyboard, the octave as one full turn, and twelve fifths as a spiral that misses its start by 7°.</sub></td>
+</tr>
+</table>
+
 ---
 
 ## Inspiration
