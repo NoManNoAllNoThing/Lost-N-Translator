@@ -2609,13 +2609,18 @@
         grid-template-columns: 1fr;
       }
     }
+    /* About: one collapsed line at the foot of the page */
+    .about { margin: 18px 0 6px; font-size: 12.5px; color: var(--muted); }
+    .about summary { cursor: pointer; width: max-content; }
+    .about p { margin: 8px 0 0; max-width: 70ch; line-height: 1.5; }
+    .about a { color: var(--active-cyan-border); }
   </style>
 </head>
 <body>
   <div class="app-wrap">
     <!-- App Title Bar -->
     <header class="app-header">
-      <h1 class="app-title">Modulo Loop Base &amp; ASCII Converter</h1>
+      <h1 class="app-title">Lost N&#39; Translator</h1>
       <span class="app-subtitle">Lost in translation: count from 1, follow one number through every system, and watch what happens to 0</span>
     </header>
 
@@ -2889,6 +2894,12 @@
 
     <!-- One short announcement per change for screen readers (instead of re-reading all six cards) -->
     <div id="liveRegion" class="sr-only" role="status" aria-live="polite"></div>
+
+    <details class="about">
+      <summary>About</summary>
+      <p>Machines count from 0, people count from 1, and small things get lost in between: a dropped zero, an off-by-one, a misread digit. Lost N&#39; Translator shows one number as bits, light, sound and symbol at once, so you can see where the meaning slips.</p>
+      <p><a href="https://github.com/NoManNoAllNoThing/Lost-N-Translator#readme" target="_blank" rel="noopener">Read the guide: how to use it, and ideas for code, music, art, video and games</a></p>
+    </details>
   </div>
 
   <script>
