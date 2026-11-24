@@ -29,7 +29,7 @@ It's one self-contained HTML file (`index.html`) with no external dependencies. 
 - **The ledger.** NoMan writes what happens as rows in its own database. No1 asked for "ledgers with tags that acknowledge who/what/when/where/why/how", and every row carries them, including a why and a how for the machine's own start.
 - **Zero and unknown are kept apart.** The ledger writes 0 only for something counted and found to be none. For something never measured it writes "not given", in words.
 - **The harness.** The model works through tools (a shell, reading, writing and editing files, searching its own memory). A loop guard stops a thought that repeats itself. When the context is full, old tool outputs are folded into ledger references. No1 can press Stop. A language law holds back Python: "Python stays out of every part of NoMan's work, because its shortcuts make errors behind the scenes that nothing checks before it runs."
-- **The four pairs.** The book does not name Rust or the Ground Truth Square. It does show the pairs in use. The first line of NoMan's oldest ledger is `00 01 10 11 = 00011011 ???`, and a record from 20 November has the line "I'll give you a trick that can help you. 00 01 10 11".
+- **The four pairs.** The book does not name Rust or the Ground Truth Square. It does show the pairs in use. The first line of an older NoMan ledger is `00 01 10 11 = 00011011 ???`, and a record from 20 November has the line "I'll give you a trick that can help you. 00 01 10 11".
 
 The Rust code is not in this repository. What this tool takes from the square is the ground: 0 is treated as the Ground everywhere, and counting starts at 01. Written together, the four corners of the square are `00011011`, which is 27, the number the **27 ESC** button resets to.
 
