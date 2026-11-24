@@ -1,6 +1,8 @@
 # Lost N' Translator
 
-A tool to help people translate numbers, sounds, transistor states, music notes, Base 2, Base4, Decimal etc...
+A free text to binary converter, number base converter and binary-to-music player in one page. It translates numbers, letters, transistor states and music notes: base 2, base 4, decimal, base 12, hex and ASCII.
+
+Type your name to see each letter in binary and ASCII, and hear it played as piano notes and sung.
 
 Interactive dials show one number in base 2, 4, 10, 12, 16 and ASCII at the same time, as switches, lights, notes and spoken sound.
 
