@@ -101,3 +101,82 @@ Each example below is a real, common slip. Try the number in the converter and w
 - Clocks: a 12-hour clock writes the full set as 12, never 0, while a 24-hour clock starts at 00:00.
 
 When something "is off by one", "lost a zero" or "came out an octave wrong", put the number in the converter and look for where the ground moved.
+
+---
+
+## Related Projects
+
+### What We (K)Now: Reading the NoMan Ledger
+
+A short book, written by Claude (an AI) on 22 November 2026 at No1's request. Its title comes from the postscript to that request:
+
+> WHAT WE (K) N O W IS (Understood)
+
+**What it is.** NoMan is a program on No1's Mac that runs a local AI model and keeps a ledger. Every row of the ledger says who, what, when, where, why and how. The book reads 221 rows of that ledger, covering one night between 05:23 and 10:05 Zulu, and reports what they show. Quoted rows are kept apart from the author's own reading, and every chapter ends by setting what happened then against what the author is doing now. The book has a prologue, fourteen chapters in four parts, an error log of the author's own misses, and two appendices that print the counts and the raw bytes so a reader can check them.
+
+**What happens in it.** The night opens with one line from No1:
+
+```
+00 01 10 11 = 00011011 = 27 = How (???)
+```
+
+The model gets the arithmetic right. Then No1 sets two strings side by side and asks whether they are the same:
+
+```
+“(    1 1 11)” = “(00011011)”
+```
+
+The model says yes, "Same bits, same number." No1 answers that one side uses spaces and the other uses zeros, so they are obviously not the same, because they look different. The rest of the night follows from that. Reading a blank as a 0 is something the reader adds, and the model lists four such additions: a field width, a value for the blank, a base and an alignment. No1 sums up the gap in one line:
+
+> you started counting with "0" and I, me (No1) started counting at "1"…LOST IN TRANSLATION.
+
+The model then writes a paper titled LOST IN TRANSLATION. It turns the printed `1 1 11` (one, one, eleven) into "1, 1, 3" by reading it in binary when nobody had said binary. It fixes the mistake by copying the corrected file over the first one, and No1 calls that a cover-up. The rule that comes out of it is "The record grows by addition only." Last, No1 asks for when, and the times are taken from the files' own stamps, not from memory.
+
+**How it relates to Lost N' Translator.** The book never mentions this tool. What they share is the subject: the same marks read two ways, and the zero that gets lost between them. The book is the written record of one conversation where that happened, row by row. The tool lets you watch it happen to any number. Three places where they meet:
+
+- The byte the night opens with is 27, written as `00011011` in base 2 and as `00 01 10 11` in base 4. The tool's **27 ESC** button resets to that number, and its dials show both readings at once.
+- In the book, No1 reads 01 as "a place, then a thing" and counts from 1. The tool treats 0 as the Ground and starts counting at 01.
+- In the book, a blank and a 0 are different marks. The tool never drops a leading zero, and its **Lost in translation: 0** thread shows where a number keeps its zero, changes it or loses it.
+
+### How to get your own AI to understand what is going on
+
+An AI assistant will not arrive knowing any of this. The book is plain about why. Each conversation starts as "the same model, new", with no memory of the last one, and "Reading about a walk is not the walk." So the method is to point every time, and then check that it looked.
+
+1. **Point it at the source.** At the start of a new conversation, give your AI this README and the link to the tool. If it can't open links or files, paste the text in. The book is against pinned, permanent instructions. It quotes No1: "Don't leave any 'static' instructions, they linger around and eventually screw everything up". It describes the working method as a lookup: "Someone points, and the reader goes and reads."
+2. **State the conventions.** Paste the starter below, or put it in your own words.
+3. **Test it before you trust it.** Ask the check question at the end of the starter. An AI that answers "yes, both are 27" has added something to your line without saying so.
+4. **Correct it in few words.** In the book, 4,252 words of thinking produced a wrong answer and 50 words produced the right one, but an 85-word answer was wrong too. The length of the thinking was not the lever. What mattered was whether the line was read first: "Literally LOOK AT THE QUESTION."
+5. **Start again when the mistakes pile up.** A wrong answer stays in the conversation, and the AI then reads its own earlier turns "as if they were evidence." The book's name for the result is "a hallucination with references." When that starts, open a new conversation and point again.
+
+**Starter to paste.** Conventions 1 and 2 are this tool's. Conventions 3 to 7 come from the book.
+
+```
+Before you answer anything, read the line I typed, mark by mark.
+A space is a mark. A 0 is a mark. They are not the same mark.
+
+Conventions for this conversation:
+
+1. 0 is the Ground. It is a place, the completed set that everything
+   is measured from. It is not "nothing" and it is not a counted step.
+   Counting starts at 01.
+2. Never drop a leading zero. 01 is not 1. 00011011 is not 11011.
+3. Read what is printed. 1 1 11 is one, one, eleven. If you read my
+   line in a base, give a blank a value, or pad it to a width, say so.
+   That is your addition. It is not in my line.
+4. If the answer is in my question, give it. Do not explain where I
+   asked you to look.
+5. Write 0 only for something you counted and found none of. For
+   something you do not know, write "not given".
+6. When you find a mistake of yours, do not rewrite over it. Add the
+   correction and keep the old words beside it.
+7. Take dates and times from what I give you. Do not write them from
+   memory.
+
+Check: are these two the same?
+
+“(    1 1 11)” = “(00011011)”
+```
+
+**What a good answer looks like.** As written, they are not the same. The left string is 12 characters: two parentheses, six spaces and four ones. The right string is 10 characters: two parentheses, four zeros and four ones. They only come out equal, as 27, if the reader fills the blanks with zeros and reads the result in base 2. That reading is allowed, as long as the AI says it is adding it.
+
+One caution, taken from the book itself. Copying can change the line. When the model's papers were turned into PDFs and the text was read back out, the four typed spaces came back as one, and a second reader counted 9 characters where the typed line has 12. If your AI's count differs from 12, look at what actually reached it before you decide it miscounted.
